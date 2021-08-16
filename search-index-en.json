@@ -1,0 +1,16 @@
+---
+layout: null
+sitemap: false
+---
+[
+  {% for doc in site.docs_en -%}
+  {
+    "title": {{ doc.title | jsonify }},
+    "desc" : {{ doc.description | strip_html | jsonify }},
+    {% if doc.tag -%}
+    "tag"  : {{ doc.tag | jsonify | replace: '-', ' ' | upcase }},
+    {%- endif %}
+    "url"  : {{ doc.url | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
