@@ -1,0 +1,73 @@
+title: 和风天气开发服务
+baseURL: "https://dev.qweather.com/"
+defaultContentLanguage: zh
+hasCJKLanguage: true
+timeZone: Asia/Shanghai
+enableRobotsTXT: false
+enableGitInfo: true
+disableKinds: ["taxonomy", "term", "RSS"]
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  description: "强大、丰富的天气数据服务"
+  logo: "https://cdn.qweather.com/media/qw-logo-s-dark-800.png"
+  images: /assets/images/qweather-icons-hero.jpg
+  copyright: "QWeather"
+  links:
+    qweather: https://www.qweather.com
+    id: https://id.qweather.com
+    console: https://console.qweather.com
+    blog: https://blog.qweather.com
+    icons: https://icons.qweather.com
+    api: https://api.qweather.com
+    devapi: https://devapi.qweather.com
+    geoapi: https://geoapi.qweather.com
+    github: https://github.com/qwd
+    mit: https://github.com/qwd/docs/blob/master/LICENSE
+    ccby4: https://creativecommons.org/licenses/by/4.0/
+    icp:
+      number: 京ICP备15048401号-11
+      url: https://beian.miit.gov.cn
+    nis:
+      number: 京公网安备11010502042548号
+      url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502042548
+
+languages:
+  zh:
+    languageName: 中文
+    weight: 1
+    menu:
+      main:
+      - name: 安装
+        url: /install/
+        weight: 1
+      - name: 使用
+        url: /usage/
+        weight: 2
+      - name: 自定义
+        url: /customize/
+        weight: 3
+  en:
+    languageName: English
+    weight: 2
+    title: QWeather Icons
+    description: Powerful and Various Weather Data Services 
+    menu:
+      main:
+      - name: Install
+        url: /install/
+        weight: 1
+      - name: Usage
+        url: /usage/
+        weight: 2
+      - name: Customize
+        url: /customize/
+        weight: 3
+
+
+

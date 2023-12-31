@@ -1,4 +1,29 @@
 <!DOCTYPE html>
+<html lang="{{ .Language }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ partial "head/title" . }}
+{{ partial "head/style" . }}
+{{ partial "head/favicons" . }}
+{{- if isset .Params "no_sitemap" }}
+<meta name="robots" content="noindex">
+{{- else }}
+{{ partial "head/canonical" . }}
+{{ partial "head/structure" . }}
+{{- end }}
+{{ partial "head/webmaster-verificaiton" . }}
+{{ partial "head/gtm" . }}
+</head>
+<body class="text-gray-700 mb-[462px] md:mb-[290px]">
+    {{ partial "nav" . }}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer" . }}
+</body>
+</html>
+
+<!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
     <meta charset="UTF-8">
@@ -37,11 +62,12 @@
     {% include gtm.html %}
 </head>
 <body>
-    {% include main-nav.html %}
+    {{ partial "nav" . }}
     {% if page.ref != "docs-home" and page.collection == "zh" or page.collection == "en"  %}
     {% include docs-bc.html %}
     {% endif %}
-    {{ content }}
-    {% include footer.html %}
+    {{ block "main" . }}
+    {{ end }}
+    {{ partial "footer" . }}
 </body>
 </html>
