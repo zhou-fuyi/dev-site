@@ -36,6 +36,7 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 *.code-workspace
 .history/
+node_modules/
 
 # jekyll
 _site/
@@ -43,6 +44,11 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
+
+# hugo
+/resources/
+/public/
+.hugo_build.lock
 
 # Misc
 *.tmp
