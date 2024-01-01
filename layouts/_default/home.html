@@ -1,0 +1,11 @@
+{{ define "main" }}
+<main class="homepage">
+    <div class="pt-10 pb-10">
+        <div class="container-xl flex justify-center">
+            <div class="announce">
+                &#128227; <a href="{{ .Site.Data.announce.url }}" target="_blank" rel="noopener noreferrer">{{ index .Site.Data.announce.title .Language.Lang }}</a>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

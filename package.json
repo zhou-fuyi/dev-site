@@ -1,0 +1,26 @@
+{
+  "name": "qweather-developers-site",
+  "author": "QWeather",
+  "license": "MIT",
+  "homepage": "https://dev.qweather.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qwd/dev-site.git"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  },
+  "scripts": {
+    "build:docs": "hugo --cleanDestinationDir",
+    "build:css": "npx tailwindcss -i ./assets/assets/css/tw.css -o ./assets/assets/css/style.css -m",
+    "build": "run-s build:css build:docs",
+    "docs:css": "npx tailwindcss -i ./assets/assets/css/tw.css -o ./assets/assets/css/style.css -w",
+    "docs:docs": "hugo server",
+    "docs": "run-p docs:*"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.118.0",
+    "npm-run-all": "^4.1.5",
+    "tailwindcss": "^3.4.0"
+  }
+}

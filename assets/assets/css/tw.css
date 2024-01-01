@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "highlight.css";
+
+@layer base {
+    html {
+        @apply relative min-h-full;
+    }
+    article a, .hero-text a {
+        @apply text-linkblue no-underline;
+    }
+    
+    article a:hover, .hero-text a:hover {
+        @apply text-linkblue underline;
+    }
+    p {
+        @apply leading-[28px] mb-2.5;
+    }
+}
