@@ -1,7 +1,8 @@
+<!-- main style -->
 {{ $styles := resources.Get "/assets/css/style.css" | resources.Fingerprint  }}
 {{ if .Site.IsServer }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
-{{ else }}
-  {{ $styles := $styles | minify  }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
-{{ end }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}"/>
+{{- else -}}
+{{ $styles := $styles | minify  }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+{{- end -}}

@@ -43,33 +43,51 @@ languages:
     weight: 1
     menu:
       main:
-      - name: 安装
-        url: /install/
+      - name: 首页
+        url: /
         weight: 1
-      - name: 使用
-        url: /usage/
+      - name: 文档
+        url: /docs/
         weight: 2
-      - name: 自定义
-        url: /customize/
+      - name: 图标
+        url: https://icons.qweather.com
         weight: 3
+      - name: 展示
+        url: /showcase/
+        weight: 4
+      - name: 帮助
+        url: /help/
+        weight: 5
+      - name: 价格
+        url: /price/
+        weight: 6
   en:
     languageName: English
     contentDir: content/en
     weight: 2
-    title: QWeather Icons
+    title: Dev.QWeather
     params:
       description: Powerful and Various Weather Data Services 
     menu:
       main:
-      - name: Install
-        url: /install/
+      - name: Home
+        url: /
         weight: 1
-      - name: Usage
-        url: /usage/
+      - name: Docs
+        url: /docs/
         weight: 2
-      - name: Customize
-        url: /customize/
+      - name: Icons
+        url: https://icons.qweather.com
         weight: 3
+      - name: Showcase
+        url: /showcase/
+        weight: 4
+      - name: Help
+        url: /help/
+        weight: 5
+      - name: Price
+        url: /price/
+        weight: 6
 
 
 

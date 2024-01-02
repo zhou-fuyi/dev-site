@@ -1,3 +1,6 @@
+test:
+  one: test
+  other: tests
 home: Home
 widget: Widget
 icons: Icons
@@ -22,7 +25,6 @@ owp: Open Weather Plus
 s6warning: Here is the Weather API version S6, which will be offline on December 31st, 2021 and it is now unavailable for new users. Click to view the latest API service.
 goto-qw: See more weather? Go to QWeather
 params: Parameters
-description: Description
 bizapi: Pro
 devapi: Dev
 rp: params

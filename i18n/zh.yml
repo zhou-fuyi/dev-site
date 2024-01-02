@@ -23,7 +23,6 @@ owp: 天气普拉斯
 s6warning: 和风天气API S6版将于2021年12月31日停止技术支持并于2022年12月31日停止服务，请使用最新版本
 goto-qw: 查询更多天气？访问和风天气
 params: 参数
-description: 描述
 bizapi: 商业版
 devapi: 开发版
 rp: 请求参数
