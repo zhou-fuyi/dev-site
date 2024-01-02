@@ -3,7 +3,7 @@ title: 空气质量(beta)
 tag: [guide, api, aq-v1, overview]
 layout: guide-overview
 description: 全球空气质量，可以轻松的获取指定位置和城市的空气质量数据以及官方监测站数据。
-permalink: /docs/api/air-quality/
+url: /docs/api/air-quality/
 ref: 0-api-aq-v1
 ---
 

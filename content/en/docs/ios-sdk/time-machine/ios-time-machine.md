@@ -3,7 +3,7 @@ title: Time Machine
 tag: [guide, ios, time-machine, overview]
 layout: guide-overview
 description: QWeather Time Machine has access to historical weather and air quality data for the last 10 days.
-permalink: /en/docs/ios-sdk/time-machine/
+url: /en/docs/ios-sdk/time-machine/
 ref:  0-sdk-ios-time-machine
 ---
 

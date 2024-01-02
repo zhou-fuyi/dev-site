@@ -3,7 +3,7 @@ title: GeoAPI
 tag: [guide, ios, geo, overview]
 layout: guide-overview
 description: QWeather GeoAPI provides global geographic location and global city search services, supports coordinates reverse check, multi-language, fuzzy search and other functions.
-permalink: /en/docs/ios-sdk/geoapi/
+url: /en/docs/ios-sdk/geoapi/
 ref: 0-sdk-ios-geo
 ---
 

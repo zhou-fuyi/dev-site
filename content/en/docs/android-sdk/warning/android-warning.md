@@ -3,7 +3,7 @@ title: Warning
 tag: [guide, android, warning, overview]
 layout: guide-overview
 description: Warning service can get global real-time severe weather warning data.
-permalink: /en/docs/android-sdk/warning/
+url: /en/docs/android-sdk/warning/
 ref: 0-sdk-android-warning
 ---
 

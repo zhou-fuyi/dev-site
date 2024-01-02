@@ -2,7 +2,7 @@
 title: Features
 description: QWeather Develop Service provides powerful weather services, learn about the features and capabilities of our services.
 tag: [feat, overview]
-permalink: /en/docs/features/
+url: /en/docs/features/
 ref: feat-overview
 ---
 

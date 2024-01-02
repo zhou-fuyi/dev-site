@@ -3,7 +3,7 @@ title: Grid Weather
 tag: [guide, api, grid-weather, overview]
 layout: guide-overview
 description: Browse all grid level Weather APIs around the world, including real-time weather, forecast weather and minute-level precipitation at any latitude and longitude.
-permalink: /en/docs/api/grid-weather/
+url: /en/docs/api/grid-weather/
 ref: 0-api-grid-weather
 ---
 

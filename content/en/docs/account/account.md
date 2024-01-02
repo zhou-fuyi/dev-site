@@ -2,7 +2,7 @@
 title: Account
 description: Learn how to register, log in, reset your password and delete your QWeather account.
 tag: [account, overview]
-permalink: /en/docs/account/
+url: /en/docs/account/
 ref: account-overview
 ---
 

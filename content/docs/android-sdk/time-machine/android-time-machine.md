@@ -3,7 +3,7 @@ title: 时光机
 tag: [guide, android, time-machine, overview]
 layout: guide-overview
 description: 时光机可以获取最近10天的历史天气和空气质量数据。
-permalink: /docs/android-sdk/time-machine/
+url: /docs/android-sdk/time-machine/
 ref: 0-sdk-android-time-machine
 ---
 

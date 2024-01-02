@@ -2,7 +2,7 @@
 title: Configuration
 tag: [config, overview]
 description: Before you can start using QWeather Develop Service, you need to do some basic configuration, such as setup a project and KEY, download the SDK, etc.
-permalink: /en/docs/configuration/
+url: /en/docs/configuration/
 ref: config-overview
 ---
 

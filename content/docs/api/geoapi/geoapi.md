@@ -3,7 +3,7 @@ title: GeoAPI
 tag: [guide, api, geo, overview]
 layout: guide-overview
 description: 和风天气GeoAPI提供全球地理位位置、全球城市搜索服务，支持经纬度坐标反查、多语言、模糊搜索等功能。
-permalink: /docs/api/geoapi/
+url: /docs/api/geoapi/
 ref: 0-api-geo
 ---
 

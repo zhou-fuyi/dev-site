@@ -3,7 +3,7 @@ title: 预警
 tag: [guide, api, warning, overview]
 layout: guide-overview
 description: 和风天气灾害预警API提供了全球极端天气预警服务，覆盖中国及全球数十个国家或地区。
-permalink: /docs/api/warning/
+url: /docs/api/warning/
 ref: 0-api-warning
 ---
 

@@ -3,7 +3,7 @@ title: 天气预警
 tag: [guide, android, warning, overview]
 layout: guide-overview
 description: 和风天气灾害预警Android SDK提供了全球极端天气预警服务，覆盖中国及全球数十个国家或地区。
-permalink: /docs/android-sdk/warning/
+url: /docs/android-sdk/warning/
 ref: 0-sdk-android-warning
 ---
 

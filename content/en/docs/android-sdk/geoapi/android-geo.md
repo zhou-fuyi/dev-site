@@ -3,7 +3,7 @@ title: GeoAPI
 tag: [guide, android, geo, overview]
 layout: guide-overview
 description: QWeather GeoAPI provides global geographic location and global city search services, supports reverse geocoding, multi-language, fuzzy search and other functions.
-permalink: /en/docs/android-sdk/geoapi/
+url: /en/docs/android-sdk/geoapi/
 ref: 0-sdk-android-geo
 ---
 

@@ -4,7 +4,7 @@ tag: [guide, android, geo, overview]
 layout: guide-overview
 toc: false
 description: 和风天气GeoAPI提供全球地理位位置、全球城市搜索服务，支持经纬度坐标反查、多语言、模糊搜索等功能。
-permalink: /docs/android-sdk/geoapi/
+url: /docs/android-sdk/geoapi/
 ref: 0-sdk-android-geo
 ---
 

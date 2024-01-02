@@ -3,7 +3,7 @@ title: Time Machine
 tag: [guide, api, time-machine, overview]
 layout: guide-overview
 description: QWeather Time Machine has access to historical weather and air quality data for the last 10 days.
-permalink: /en/docs/api/time-machine/
+url: /en/docs/api/time-machine/
 ref: 0-api-time-machine
 ---
 

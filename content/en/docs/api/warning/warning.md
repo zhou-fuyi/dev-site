@@ -3,7 +3,7 @@ title: Warning
 tag: [guide, api, warning, overview]
 layout: guide-overview
 description: Warning service can get global real-time severe weather warning data.
-permalink: /en/docs/api/warning/
+url: /en/docs/api/warning/
 ref: 0-api-warning
 ---
 

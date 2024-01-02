@@ -3,7 +3,7 @@ title: Develop Guide
 description: QWeather web API is a simple RESTful API to access location-based weather data, including geolocation, real-time weather, weather forecasts, air quality, severe weather warnings, minute precipitation, weather index and other weather data services. 
 tag: [guide, overview]
 image: /assets/images/di-api-xs.png
-permalink: /en/docs/api/
+url: /en/docs/api/
 ref: 0-api-overview
 ---
 

@@ -3,7 +3,7 @@ title: 灾害预警
 tag: [guide, ios, warning, overview]
 layout: guide-overview
 description: 和风天气灾害预警API提供了全球极端天气预警服务，覆盖中国及全球数十个国家或地区。
-permalink: /docs/ios-sdk/warning/
+url: /docs/ios-sdk/warning/
 ref: 0-sdk-ios-warning
 ---
 

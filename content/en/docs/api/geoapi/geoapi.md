@@ -3,7 +3,7 @@ title: GeoAPI
 tag: [guide, api, geo, overview]
 layout: guide-overview
 description: QWeather GeoAPI provides global geographic location and global city search services, supports reverse geocoding, multi-language, fuzzy search and other functions.
-permalink: /en/docs/api/geoapi/
+url: /en/docs/api/geoapi/
 ref: 0-api-geo
 ---
 

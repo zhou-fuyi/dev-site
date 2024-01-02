@@ -3,7 +3,7 @@ title: 时光机
 tag: [guide, api, time-machine, overview]
 layout: guide-overview
 description: 时光机可以获取最近10天的历史天气和空气质量数据。
-permalink: /docs/api/time-machine/
+url: /docs/api/time-machine/
 redirect_from: /docs/histroical/
 ref: 0-api-time-machine
 ---

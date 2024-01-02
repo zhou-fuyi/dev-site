@@ -2,7 +2,7 @@
 title: 帐号管理
 description: 使用和风天气的开发服务，你需要一个和风天气的帐号，在这里你可以了解如何注册、登录、找回密码以及删除你的帐号。
 tag: [account, overview]
-permalink: /docs/account/
+url: /docs/account/
 ref: account-overview
 ---
 

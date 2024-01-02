@@ -2,7 +2,7 @@
 title: Start
 tag: [start, overview]
 description: QWeather provides a powerful, modern and development-friendly weather data service, includes weather API/SDK and Widget. You can start getting weather data by following the few steps below and the documentation, which is very simple.
-permalink: /en/docs/start/
+url: /en/docs/start/
 ref: start-overview
 ---
 

@@ -2,7 +2,7 @@
 title: 格点天气
 tag: [guide, api, grid-weather, overview]
 layout: guide-overview
-permalink: /docs/api/grid-weather/
+url: /docs/api/grid-weather/
 description: 以经纬度为基准的全球高精度、公里级、格点化天气预报产品，包括任意经纬度的实时天气和天气预报。
 ref: 0-api-grid-weather
 ---
