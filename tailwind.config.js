@@ -8,6 +8,10 @@ module.exports = {
     './layouts/**/*.md'
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "1.25rem",
+    },
     extend: {
       colors: {
         linkblue: '#0085ff',
